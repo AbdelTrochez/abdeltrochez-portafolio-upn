@@ -385,17 +385,17 @@ const claseInformaticaAplicada2026_3 = {
         "https://drive.google.com/file/d/1KyjO-E_GnflKjOrwunlNxsE959LW0Pud/view?usp=sharing",
     },
   ],
-  // 5.5. Lista de Asistencia General de la Clase en Drive
+  // 5.5. Lista de Asistencia General de la Clase en Drive (Archivo único de Excel)
   asistenciaGeneral: [
     {
       id: "asist-gen-inf-aplicada",
-      titulo:
-        "Listado Oficial de Asistencia - Informática Aplicada (III Periodo 2026)",
-      tipo: "Carpeta Google Drive (5.5_Asistencia)",
+      titulo: "Listado y Asistencia VREAD III Periodo 2026",
+      tipo: "Libro de Excel (.xlsx)",
       descripcion:
-        "Control general de asistencia de los estudiantes de Informática Aplicada en el Centro Regional Universitario Santa Bárbara (CRUSB).",
+        "Archivo único de Excel con el control oficial de asistencia de los estudiantes de Informática Aplicada en el Centro Regional Universitario Santa Bárbara (CRUSB).",
+      nombreArchivo: "Listado y Asistencia VREAD III Periodo 2026.xlsx",
       driveUrl:
-        "https://drive.google.com/drive/folders/1A6BWbKCGzs32NQHeyEbcVwi81wBLpP7P",
+        "https://drive.google.com/file/d/12NGe28Rcpclcyvc4Dv7p2bDyzOMTKfXw/view?usp=sharing",
     },
   ],
   // 5 Encuentros de Acompañamiento con todos los archivos de Drive conectados
@@ -979,9 +979,9 @@ const claseInformaticaPrebasica2026_3 = {
       id: "asist-gen-prebasica-folder",
       titulo:
         "Listado Oficial de Asistencia - Informática Educativa para Educación Prebásica",
-      tipo: "Carpeta Google Drive (5.5_Asistencia)",
+      tipo: "Archivo Excel / Carpeta Google Drive (5.5_Asistencia)",
       descripcion:
-        "Control general de asistencia del espacio formativo en el Centro Regional Universitario Santa Bárbara (CRUSB).",
+        "Archivo único de control de asistencia del espacio formativo en el Centro Regional Universitario Santa Bárbara (CRUSB).",
       driveUrl:
         "https://drive.google.com/drive/folders/17KOQ16U3uP7w_INQnXOFUZHwP3fDC_d7",
     },
