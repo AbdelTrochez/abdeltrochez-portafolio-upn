@@ -51,7 +51,7 @@ const Form = () => {
           />
           <input
             type="text"
-            placeholder="Carrera / Unidad Académica (ej. Contaduría VREAD o Prebásica)*"
+            placeholder="Carrera / Unidad Académica (ej. Profesorado en Contaduría y Gestión Empresarial o Educación Prebásica)*"
             value={carrera}
             onChange={(e) => setCarrera(e.target.value)}
             className={commonClass}

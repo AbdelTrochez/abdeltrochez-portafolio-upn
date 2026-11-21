@@ -160,7 +160,7 @@ export const perfilDocenteData = {
       oportunidades: [
         "Integración de herramientas de Inteligencia Artificial, ecosistema Google Workspace y recursos en la nube en la docencia superior.",
         "Programas de formación continua y actualización metodológica impulsados por la UPNFM y la VREAD.",
-        "Fortalecimiento de competencias digitales en futuros docentes de Educación Prebásica y Contaduría.",
+        "Fortalecimiento de competencias digitales en futuros docentes de Profesorado en Contaduría y Gestión Empresarial y Profesorado en Educación Prebásica.",
         "Sistematización digital del trabajo docente mediante portafolios web interactivos.",
       ],
       debilidades: [
@@ -229,7 +229,7 @@ export const perfilInstitucionalData = [
       "3.3. Profesorado en Contaduría y Gestión Empresarial / Educación Prebásica",
     subtitulo: "Perfiles Profesionales Atendidos en el CRUSB",
     resena:
-      "El quehacer docente se desarrolla de forma articulada en dos programas estratégicos del Centro Regional Universitario Santa Bárbara (CRUSB): el Profesorado en Contaduría y Gestión Empresarial (VREAD - Educación Comercial) y el Profesorado en Educación Prebásica (Modalidad Presencial), fortaleciendo las competencias tecnológicas aplicadas tanto a la gestión contable-financiera como a la innovación didáctica infantil.",
+      "El quehacer docente se desarrolla de forma articulada en dos programas estratégicos del Centro Regional Universitario Santa Bárbara (CRUSB): el Profesorado en Contaduría y Gestión Empresarial (VREAD) y el Profesorado en Educación Prebásica (Modalidad Presencial), fortaleciendo las competencias tecnológicas aplicadas tanto a la gestión contable-financiera como a la innovación didáctica infantil.",
     perfilesCarrera: [
       {
         nombre: "Profesorado en Contaduría y Gestión Empresarial (VREAD)",
@@ -760,7 +760,7 @@ const claseInformaticaAplicada2026_3 = {
             "Actividad Práctica 3 - Tema: Funciones Aritméticas, Contables y Estadísticas en Excel",
           tipo: "Documento PDF (Evidencia Moodle / Guía)",
           descripcion:
-            "Laboratorio aplicado a modelos contables y financieros para estudiantes de Contaduría y Gestión Empresarial.",
+            "Laboratorio aplicado a modelos contables y financieros para estudiantes del Profesorado en Contaduría y Gestión Empresarial.",
           nombreArchivo:
             "Actividad Práctica - 3 - Tema Funciones Aritméticas, Contables y Estadísticas en Excel.pdf",
           driveUrl:
