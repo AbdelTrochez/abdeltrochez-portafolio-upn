@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, cupcake;
+}
+
+* {
+  transition-property: all;
+  transition-timing-function: var(
+    --tw-ease,
+    var(--default-transition-timing-function)
+  );
+  transition-duration: var(--tw-duration, var(--default-transition-duration));
+  --tw-duration: 200ms;
+  transition-duration: 200ms;
+}
+
+@theme {
+  --breakpoint-xxs: 21.25rem; /* COMMENT: 340px */
+  --breakpoint-xs: 23.125rem; /* COMMENT: 363px */
+  --breakpoint-xxl: 82.5rem; /* COMMENT: 1320px */
+  /* Colores Oficiales Extraídos de Colores UPN.png */
+  --color-picto-primary: #04488e;
+  --color-picto-primary-dark: #03356b;
+  --color-upnfm-blue: #04488e;
+  --color-upnfm-orange: #e94e1a;
+  --color-upnfm-yellow: #ffed00;
+  --color-soft-white: #f0f5fa;
+  --color-soft-dark: #52637a;
+}
+
+.btn-primary {
+  @apply bg-picto-primary border-0 text-white hover:scale-[102%] hover:bg-picto-primary-dark transition-all duration-500;
+}
+html,
+body {
+  font-family: "Work Sans", sans-serif;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.content {
+  @apply max-xxl:w-full xxl:max-w-[1320px] xxl:mx-auto;
+}
+
+.section-title {
+  @apply md:font-semibold text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight;
+}
+
+.center {
+  @apply flex justify-center items-center;
+}
+
+.introduction-profile-background {
+  background: radial-gradient(
+      circle at 12% 100%,
+      #ffed0024 1% 5px,
+      transparent 20%
+    ),
+    /* bottom left: amarillo institucional UPNFM */
+      radial-gradient(circle at 95% -15%, #04488e26 5%, transparent 34%),
+    /* top right: azul oficial UPNFM */
+      radial-gradient(circle at center right, #e94e1a18 2%, transparent 35%); /* center right: naranja institucional UPNFM */
+}
+.blog-background {
+  background: radial-gradient(circle at -10% 0%, #04488e22 1%, transparent 25%),
+    radial-gradient(circle at 110% 30%, #ffed0020 5%, transparent 25%);
+}
